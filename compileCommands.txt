@@ -1,0 +1,3 @@
+gcc -I/usr/local/opt/ncurses/include -L/usr/local/opt/ncurses/lib cursesTest.c -o cursestest -lmenu -lncurses
+
+gcc -I/usr/local/opt/ncurses/include -L/usr/local/opt/ncurses/lib libtmt/tmt.c libtmttest.c -o libtmttest -lmenu -lncurses

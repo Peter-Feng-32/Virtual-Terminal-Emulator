@@ -1,0 +1,8 @@
+https://docs.python.org/3/howto/curses.html
+https://invisible-island.net/ncurses/ncurses-intro.html#screens
+https://invisible-island.net/ncurses/ncurses.faq.html
+https://stackoverflow.com/questions/52636581/how-to-direct-ncurses-output-to-a-serial-terminal-on-boot-from-linux
+https://github.com/deadpixi/libtmt
+https://stackoverflow.com/questions/41451030/get-output-from-ncurses-app-on-a-separate-terminal
+https://stackoverflow.com/questions/29154056/redirect-stdout-to-a-file
+https://stackoverflow.com/questions/8371877/ncurses-and-linux-pipeline

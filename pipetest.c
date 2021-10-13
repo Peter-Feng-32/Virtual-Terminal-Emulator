@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "tmt.h"
+#include "libtmt/tmt.h"
+#include <string.h>
+#include <unistd.h>
 
 /* Forward declaration of a callback.
  * libtmt will call this function when the terminal's state changes.
@@ -26,6 +28,13 @@ int main(void)
      * The final argument is the length of the input; 0 means that
      * libtmt will determine the length dynamically using strlen.
      */
+    char *l = NULL;
+    size_t n;
+    while (getline(&l, &n, stdin) != -1)
+    {
+        print("%s", l);
+    }
+    free(l);
 
     tmt_write(vt, "\033[1mhello, world (in bold!)\033[0m", 0);
 
