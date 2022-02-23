@@ -1,9 +1,7 @@
 # Tooz-Glasses-Project
 
 
-Goal: ASCII Star Wars
-
-Learn how curses works and how to make a terminal emulator
+Goal: 
 
 Start writing a terminal emulator for the tooz glasses so curses can run on top of it
 
